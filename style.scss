@@ -59,7 +59,7 @@ body{
 }
 header{
     background-color: #072440;
-    height: 50px;
+    height: 30px;
     .row{
         display: flex;
         justify-content: space-between;
@@ -466,6 +466,7 @@ header{
     a{
         text-align: center;
         display: block;
+        margin-bottom: 50px;
         
     }
     h1{
@@ -481,6 +482,10 @@ header{
     .card{
     margin-top: 50px;
     width: 30%;
+    h3{
+        color: #072440;
+    }
+    
     
     a{
         display: inline;
@@ -489,6 +494,7 @@ header{
     p{
         margin-top: 30px;
         margin-bottom: 20px;
+        color: #072440;
     }
     .under-border{
         border: 1px solid #1454FB;
@@ -773,13 +779,13 @@ footer{
         }
         .card{
             border: 2px solid black;
-            width: 350px;
+            width: 400px;
             height: 280px;
             margin-top: 150px;
             margin-left: -50px;
             background-color: white;
             .row-card{
-                width: 250px;
+                width: 300px;
                 margin: auto;
                 color: #072440;
                 h1{
@@ -864,4 +870,87 @@ footer{
     justify-content: space-between;
     width: 50%;
     
+}
+
+
+// 3 page
+
+.need-help{
+    .we-started{
+        .row{
+            display: flex;
+            .card{
+                margin: 0;
+                width: 100%;
+                height: inherit;
+                .row-card{
+                    width: 400px;
+                    h1{
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.video{
+    height: 400px;
+    border: 2px solid black;
+    background-color: #465B70;
+    h2{
+        margin-top: 150px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    svg{
+        margin: auto;
+        display: block;
+        margin-top: 10px;
+    }
+    a{
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+        display: block;
+    }
+}
+
+.what-they-say-2{
+    background-color: white;
+    .row{
+        display: flex;
+        .card{
+            box-shadow: 0px 0px 3px gray;
+            width: 350px;
+            height: 380px;
+            
+            .row-card{
+                width: 300px;
+                .circle-border1{
+                    left: 100px;
+                }
+                .circle-border2{
+                    left: 130px;
+                }
+                .circle-border3{
+                    left: 160px;
+                }
+                img{
+                    top: 270px;
+                }
+                .person{
+                    top: 270px;
+                }
+                .person1{
+                    top: 290px;
+                }
+            }
+        }
+        
+    }
 }
