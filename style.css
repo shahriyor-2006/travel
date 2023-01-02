@@ -105,6 +105,10 @@ header .row .right-side-header img {
   margin-top: 25px;
 }
 
+.subheader nav .service:hover .lvl2 {
+  display: none;
+}
+
 .subheader nav a {
   color: #072440;
 }
@@ -1029,4 +1033,198 @@ footer .bottom-footer .link-footer {
 
 .what-they-say-2 .row .card .row-card .person1 {
   top: 290px;
+}
+
+.gallery {
+  background-color: #DAE5FF;
+}
+
+.gallery .one-gallery {
+  height: 500px;
+}
+
+.gallery .one-gallery .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery .one-gallery .row .left {
+  width: 45%;
+  margin-top: 50px;
+}
+
+.gallery .one-gallery .row .left img {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery .one-gallery .row .right {
+  width: 50%;
+  margin-top: 50px;
+}
+
+.gallery .one-gallery .row .right .tick-text {
+  display: flex;
+  width: 230px;
+  justify-content: space-between;
+}
+
+.gallery .one-gallery .row .right .tick-text p {
+  align-self: flex-end;
+}
+
+.gallery .one-gallery .row .right .blue {
+  width: 20px;
+  height: 20px;
+  background-color: #1B44C0;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.gallery .one-gallery .row .right .blue img {
+  margin: 25%;
+  width: 12px;
+}
+
+.bg-plan-move2 {
+  background-image: url("images/bg2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-plan-move3 {
+  background-image: url("images/bg3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.bg-plan-move3 .card {
+  margin: auto;
+  background-color: #114AD5;
+  margin-top: 100px;
+  position: relative;
+}
+
+.bg-plan-move3 .card .row-card {
+  width: 400px;
+  margin: auto;
+  border: 1px solid black;
+  height: 100%;
+}
+
+.bg-plan-move3 .card h1 {
+  text-align: center;
+  color: white !important;
+  position: absolute;
+  top: 50px;
+  left: 160px;
+  font-size: 5rem;
+}
+
+.bg-plan-move3 .card p {
+  color: white !important;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+}
+
+.bg-plan-move3 .card .p2 {
+  color: white !important;
+  position: absolute;
+  top: 170px;
+  left: 70px;
+  font-weight: 100;
+  font-size: 14px;
+  width: 400px;
+}
+
+.bg-plan-move3 .card input {
+  position: absolute;
+  top: 260px;
+  width: 70%;
+  height: 30px;
+}
+
+.bg-plan-move3 .card .search {
+  width: 40px;
+  height: 34px;
+  background-color: #1B44C0;
+  position: absolute;
+  top: 260px;
+  left: 400px;
+}
+
+.bg-plan-move3 .card .search img {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
+
+.procedure .left h1 {
+  font-size: 3rem;
+  color: #072440;
+  height: 150px;
+}
+
+.procedure .left p {
+  line-height: 2rem;
+  font-size: 1.4rem;
+  margin-top: 30px;
+}
+
+.procedure .right .one-rect .rect {
+  border-radius: 100px;
+}
+
+.procedure .right .one-rect .rect h3 {
+  width: 290px;
+}
+
+.claim-now .card {
+  height: 450px;
+}
+
+.claim-now .right-card {
+  background-color: white;
+  width: 450px;
+  height: 200px;
+  position: relative;
+}
+
+.claim-now .right-card .input {
+  width: 200px;
+  height: 10px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.claim-now .right-card .input-2 {
+  margin-top: 20px !important;
+}
+
+.claim-now .right-card input {
+  background-color: #DAE5FF;
+  height: 30px;
+  border: none;
+  width: 180px;
+}
+
+.claim-now .right-card input label {
+  color: #072440;
+}
+
+.claim-now .right-card textarea {
+  position: absolute;
+  top: 185px;
+  left: 15px;
+  background-color: #DAE5FF;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.claim-now .right-card .btn {
+  margin-top: 150px !important;
+  width: 98% !important;
+  margin-left: 17px;
 }
