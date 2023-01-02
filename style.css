@@ -1271,3 +1271,110 @@ footer .bottom-footer .link-footer {
   padding: 20px;
   width: 27% !important;
 }
+
+.people {
+  border: 1px solid black;
+}
+
+.people .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.people .person {
+  border: 1px solid black;
+  position: relative;
+  width: 235px;
+}
+
+.people .person .blue {
+  position: absolute;
+  background-color: #1B44C0;
+  width: 100%;
+  height: 50px;
+  bottom: 0px;
+}
+
+.people .person .blue .name {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.people .person .blue .job {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+.become-team .bg-plan-move {
+  background-image: url("images/team-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.become-team .bg-plan-move .card {
+  border: none;
+}
+
+.become-team .bg-plan-move .row-card {
+  width: 90% !important;
+  margin-top: 20px;
+  height: 230px;
+}
+
+.become-team .bg-plan-move .row-card button {
+  margin-top: 15px !important;
+}
+
+.we-seek .cards {
+  flex-wrap: wrap;
+}
+
+.we-seek .cards .card {
+  width: 50%;
+}
+
+.we-seek .cards .card .blue {
+  background-color: #1454FB;
+  width: 40px;
+  height: 10px;
+  border-radius: 52px;
+  margin-bottom: 10px;
+}
+
+.open {
+  height: 400px;
+  margin-top: 100px;
+  background-image: url("images/team-bg2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: right;
+  color: white;
+  position: relative;
+}
+
+.open h2 {
+  font-size: 3rem;
+  position: absolute;
+  top: 150px;
+  right: 40px;
+}
+
+.open p {
+  position: absolute;
+  right: 40px;
+  width: 90%;
+  font-size: 14px;
+  top: 220px;
+}
+
+.open button {
+  position: absolute;
+  top: 220px;
+  right: 40px;
+}
