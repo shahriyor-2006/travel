@@ -684,7 +684,7 @@ button:hover {
   height: 50px;
   border-radius: 5px;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   margin-top: 40px;
   font-weight: bold;
   border: none;
@@ -782,9 +782,13 @@ footer .center-footer ul li a {
   color: white;
 }
 
+footer .bottom-footer {
+  position: relative;
+}
+
 footer .bottom-footer .under-border {
   border: 1px solid white;
-  width: 930px;
+  width: 500px;
 }
 
 footer .bottom-footer p {
@@ -796,12 +800,17 @@ footer .bottom-footer a {
   color: white;
   display: inline-block;
   font-size: 12px;
+  position: absolute;
+  top: 25px;
+  left: 0px;
 }
 
 footer .bottom-footer .link-footer {
   margin-left: 280px;
   display: inline-block;
   margin-right: 15px;
+  position: absolute;
+  left: -190px;
 }
 
 .about-us-page {
@@ -832,8 +841,7 @@ footer .bottom-footer .link-footer {
 }
 
 .cover {
-  border: 2px solid black;
-  height: 550px;
+  height: 500px;
   background-color: #DAE5FF;
 }
 
@@ -1145,7 +1153,6 @@ footer .bottom-footer .link-footer {
 .bg-plan-move3 .card .row-card {
   width: 400px;
   margin: auto;
-  border: 1px solid black;
   height: 100%;
 }
 
@@ -1273,7 +1280,6 @@ footer .bottom-footer .link-footer {
 }
 
 .contact-get-in-touch {
-  border: 1px solid black;
   width: 100%;
   margin-top: 100px;
   display: flex;
@@ -1286,7 +1292,7 @@ footer .bottom-footer .link-footer {
 
 .contact-get-in-touch .left img {
   width: 110%;
-  height: 100%;
+  height: 470px !important;
 }
 
 .contact-get-in-touch .right {
@@ -1728,8 +1734,8 @@ footer .bottom-footer .link-footer {
   .fura button {
     width: 120px !important;
     height: 50px !important;
-    font-size: 15px !important;
     margin-top: 10px !important;
+    font-size: 15px !important;
     margin-bottom: 10px !important;
   }
   .fura .row {
@@ -1876,6 +1882,9 @@ footer .bottom-footer .link-footer {
     font-size: 10px !important;
     height: 30px !important;
   }
+  .row .contact-get-in-touch .left img {
+    height: 480px !important;
+  }
   .row .contact-get-in-touch img {
     width: 100% !important;
     margin: 0px !important;
@@ -1921,10 +1930,10 @@ footer .bottom-footer .link-footer {
     left: 120px;
   }
   .row .contact-get-in-touch textarea {
-    width: 220px;
+    width: 215px;
   }
   .row .contact-get-in-touch .btn {
-    width: 230px !important;
+    width: 225px !important;
     position: absolute;
     line-height: 50px;
     top: 130px;
@@ -1935,7 +1944,203 @@ footer .bottom-footer .link-footer {
     top: 17px !important;
     left: 150px;
   }
+  .bg-plan-move3 .card {
+    width: 100% !important;
+  }
   .bg-plan-move3 h1 {
     margin-left: -60px;
+    font-size: 50px !important;
+  }
+  .bg-plan-move3 p {
+    margin-left: 25px;
+    font-size: 20px !important;
+  }
+  .bg-plan-move3 .p2 {
+    margin-left: -40px;
+    font-size: 15px !important;
+  }
+  .bg-plan-move3 input {
+    top: 240px !important;
+    width: 78% !important;
+  }
+  .bg-plan-move3 .search {
+    left: 380px !important;
+    top: 238px !important;
+  }
+  .bg-plan-move3 .search img {
+    top: 8px !important;
+    left: 10px !important;
+  }
+  .people .row {
+    flex-wrap: wrap;
+  }
+  .people .person {
+    width: 48%;
+  }
+  .become-team .bg-plan-move2 {
+    background-size: 300%;
+  }
+  .become-team .row .card {
+    width: 300px;
+    height: 250px !important;
+  }
+  .become-team .row .card h1 {
+    font-size: 20px !important;
+    top: -30px !important;
+  }
+  .become-team .row .card p {
+    font-size: 11px !important;
+    top: 110px !important;
+  }
+  .become-team .row .card button {
+    font-size: 14px !important;
+    width: 100px !important;
+    margin-top: 30px !important;
+  }
+  .row .additional-service .row h1 {
+    font-size: 18px !important;
+  }
+  .open p {
+    margin-top: -20px !important;
+  }
+  .open button {
+    margin-top: 50px !important;
+  }
+  .moving-company .left-part-service, .moving-company .right-part-service {
+    margin-top: 0px !important;
+  }
+  .moving-company .left-part-service h2 {
+    font-size: 25px !important;
+  }
+  .moving-company .right-part-service {
+    font-size: 13px;
+  }
+  .moving-company .right-part-service button {
+    margin-top: 20px !important;
+  }
+  .gallery .one-gallery .right {
+    font-size: 12px;
+  }
+  .gallery .one-gallery .right button {
+    font-size: 14px !important;
+    width: 120px !important;
+  }
+  .gallery .one-gallery .right p {
+    font-size: 12px !important;
+  }
+  .gallery .one-gallery .right .tick-text {
+    width: 200px !important;
+    justify-content: flex-start !important;
+  }
+  .gallery .one-gallery .right .tick-text p {
+    margin-left: 10px;
+  }
+  .need-help .we-started .card {
+    width: 45% !important;
+    border: 1px solid black;
+  }
+  .need-help .we-started .card .row-card {
+    width: 100px !important;
+    margin: auto !important;
+    margin-left: 0px !important;
+  }
+  .need-help .we-started .card .row-card h1 {
+    font-size: 14px !important;
+    width: 180px !important;
+    margin-left: 15px !important;
+    margin-top: 10px !important;
+  }
+  .need-help .we-started .card .row-card p {
+    font-size: 10px !important;
+    width: 180px !important;
+    margin-left: 15px !important;
+  }
+  .need-help .we-started .card .row-card button {
+    font-size: 10px !important;
+    height: 30px !important;
+  }
+  .procedure .zero-to-hero h1 {
+    font-size: 25px !important;
+  }
+  .claim-now .card {
+    height: 360px;
+  }
+  .claim-now .card h1 {
+    position: absolute !important;
+    top: -100px !important;
+    left: 0px;
+  }
+  .claim-now .card p {
+    position: absolute !important;
+    top: 30px !important;
+    font-size: 10px !important;
+    left: 0px;
+  }
+  .claim-now .right-card {
+    width: 350px;
+    position: relative;
+    position: absolute;
+    top: 80px;
+  }
+  .claim-now .right-card label {
+    font-size: 10px;
+  }
+  .claim-now .right-card .btn {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 310px !important;
+    height: 30px !important;
+  }
+  .claim-now .blue {
+    position: absolute;
+    top: -10px;
+  }
+  .claim-now input {
+    width: 140px !important;
+    font-size: 10px;
+  }
+  .claim-now .input-name {
+    position: absolute;
+    left: 0px;
+  }
+  .claim-now .input-phone {
+    position: absolute;
+    left: 170px;
+  }
+  .claim-now .input-id {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+  }
+  .claim-now .input-email {
+    position: absolute;
+    left: 170px;
+    top: 50px;
+  }
+  .claim-now textarea {
+    position: absolute !important;
+    top: 130px !important;
+    width: 300px;
+    height: 50px;
+  }
+  .claim-now .comment {
+    position: absolute !important;
+    top: 110px !important;
+  }
+  .contact-get-in-touch .right p {
+    margin-top: 350px !important;
+    margin-left: 250px !important;
+  }
+  .contact-get-in-touch .right-card textarea {
+    top: 180px !important;
+  }
+  .contact-get-in-touch .right-card input {
+    width: 90px !important;
+  }
+  .contact-get-in-touch .right-card .btn {
+    top: 100px !important;
+    height: 40px !important;
+    width: 225px !important;
   }
 }

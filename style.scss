@@ -645,7 +645,7 @@ button:hover{
             height: 50px;
             border-radius: 5px;
             color: white;
-            font-size: 20px;
+            font-size: 15px;
             margin-top: 40px;
             font-weight: bold;
             border: none;
@@ -731,9 +731,10 @@ footer{
 
     }
     .bottom-footer{
+        position: relative;
         .under-border{
             border: 1px solid white;
-            width: 930px;
+            width: 500px;
         }
         p{
             font-size: 12px;
@@ -743,11 +744,16 @@ footer{
             color: white;
             display: inline-block;
             font-size: 12px;
+            position: absolute;
+            top: 25px;
+            left: 0px;
         }
         .link-footer{
             margin-left: 280px;
             display: inline-block;
             margin-right: 15px;
+            position: absolute;
+            left: -190px;
             
         }
     }
@@ -778,8 +784,7 @@ footer{
 }
 
 .cover{
-    border: 2px solid black;
-    height: 550px;
+    height: 500px;
     background-color: #DAE5FF;
     h1{
         font-size: 2rem;
@@ -1057,6 +1062,7 @@ footer{
     background-image: url("images/bg2.png");
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 
 .bg-plan-move3{
@@ -1068,10 +1074,10 @@ footer{
         background-color: #114AD5;
         margin-top: 100px;
         position: relative;
+
         .row-card{
             width: 400px;
             margin: auto;
-            border: 1px solid black;
             height: 100%;
         }
         h1{
@@ -1202,7 +1208,6 @@ footer{
 
 // conatct
 .contact-get-in-touch{
-    border: 1px solid black;
     width: 100%;
     margin-top: 100px;
     display: flex;
@@ -1211,7 +1216,7 @@ footer{
         height: 100%;
         img{
             width: 110%;
-            height: 100%;
+            height: 470px !important;
         }
     }
     .right{
@@ -1360,10 +1365,15 @@ footer{
 
 
 @media screen and (max-width:500px){
+    // body{
+    //     overflow-x: hidden !important;
+
+    // }
     .container{
         width: 500px !important;
         .row{
             width: 450px !important;
+            
             .left-side-header, .right-side-header{
                 font-size: 10px;
             }
@@ -1732,8 +1742,8 @@ footer{
         button{
             width: 120px !important;
             height: 50px !important;
-            font-size: 15px !important;
             margin-top: 10px !important;
+            font-size: 15px !important;
             margin-bottom: 10px !important;
 
 
@@ -1902,9 +1912,7 @@ footer{
     }
 
     .need-help{
-        .row{
-            
-        }
+        
         .card{
             width: 45% !important;
             border: 1px solid black;
@@ -1934,6 +1942,11 @@ footer{
 
     .row{
         .contact-get-in-touch{
+            .left{
+                img{
+                    height: 480px !important;
+                }
+            }
             img{
                 width: 100% !important;
                 margin: 0px !important;
@@ -1983,10 +1996,10 @@ footer{
                 left: 120px;
             }
             textarea{
-                width: 220px;
+                width: 215px;
             }
             .btn{
-                width: 230px !important;
+                width: 225px !important;
                 position: absolute;
                 line-height: 50px;
                 top: 130px;
@@ -2002,10 +2015,263 @@ footer{
 
 
     .bg-plan-move3{
+        .card{
+        width: 100% !important;
+            
+        }
         h1{
             margin-left: -60px;
+            font-size: 50px !important;
+        }
+        p{
+            margin-left: 25px;
+            font-size: 20px !important;
+        }
+        .p2{
+            margin-left: -40px;
+            font-size: 15px !important;
+        }
+        input{
+            top: 240px !important;
+            width: 78% !important;
+
+        }
+        .search{
+                left: 380px !important;
+                top: 238px !important;
+            img{
+                top: 8px !important;
+                left: 10px !important;
+            }
         }
     }
+
+    .people{
+        .row{
+            flex-wrap: wrap;
+        }
+        .person{
+            width: 48%;
+        }
+    }
+    .become-team{
+        .bg-plan-move2{
+            background-size: 300%;
+        }
+        
+        .row{
+            .card{
+                width: 300px;
+                height: 250px !important;
+                h1{
+                    font-size: 20px !important;
+                    top: -30px !important;
+                }
+                p{
+                    font-size: 11px !important;
+                    top: 110px !important;
+                }
+                button{
+                    font-size: 14px !important;
+                    width: 100px !important;
+                    margin-top: 30px !important;
+                }
+            }
+        }
+    }
+
+    .row{
+        .additional-service{
+            .row{
+                h1{
+                    font-size: 18px !important;
+                }
+            }
+        }
+    }
+
+    .open{
+        p{
+            margin-top: -20px !important;
+        }
+        button{
+            margin-top: 50px !important;
+        }
+    }
+
+    .moving-company{
+        .left-part-service, .right-part-service{
+            margin-top: 0px !important;
+            
+        }
+        .left-part-service{
+            h2{
+                font-size: 25px !important;
+            }
+        }
+        .right-part-service{
+            font-size: 13px;
+            button{
+                margin-top: 20px !important;
+            }
+        }
+    }
+
+    .gallery{
+        .one-gallery{
+            .right{
+                font-size: 12px;
+                button{
+                    font-size: 14px !important;
+                    width: 120px !important;
+                }
+                p{
+                font-size: 12px !important;
+
+                }
+                .tick-text{
+                    width: 200px !important;
+                    justify-content: flex-start !important;
+                    p{
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .need-help{
+        .we-started{
+            .card{
+                width: 45% !important;
+                border: 1px solid black;
+                .row-card{
+                    width: 100px !important; 
+                    margin: auto !important;
+                    margin-left: 0px !important;
+                    h1{
+                        font-size: 14px !important;
+                        width: 180px !important;
+                        margin-left: 15px !important;
+                        margin-top: 10px !important; 
+                    }
+                    p{
+                        font-size: 10px !important;
+                        width: 180px !important;
+                        margin-left: 15px !important;
+    
+                    }
+                    button{
+                        font-size: 10px !important;
+                        height: 30px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .procedure{
+        .zero-to-hero{
+            h1{
+                font-size: 25px !important;
+            }
+        }
+    }
+
+    .claim-now{
+        .card{
+            height: 360px;
+            h1{
+                position: absolute !important;
+                top: -100px !important;
+                left: 0px;
+
+            }
+            p{
+                position: absolute !important;
+                top: 30px !important;
+                font-size: 10px !important;
+                left: 0px;
+            }
+        }
+        .right-card{
+            width: 350px;
+            position: relative;
+            position: absolute;
+            top: 80px;
+            label{
+                font-size: 10px;
+            }
+            .btn{
+                position: absolute;
+                top: 60px;
+                left: 0px;
+                width: 310px !important;
+                height: 30px !important;
+                
+            }
+        }
+        .blue{
+            position: absolute;
+            top: -10px;
+        }
+        input{
+            width: 140px !important;
+            font-size: 10px;
+        }
+        .input-name{
+            position: absolute;
+            left: 0px;
+        }
+        .input-phone{
+            position: absolute;
+            left: 170px;
+        }
+        .input-id{
+            position: absolute;
+            top: 50px;
+            left: 0px;
+        }
+        .input-email{
+            position: absolute;
+            left: 170px;
+            top: 50px;
+        }
+        textarea{
+            position: absolute !important;
+            top: 130px !important;
+            width: 300px;
+            height: 50px;
+        }
+        .comment{
+            position: absolute !important;
+            top: 110px !important;
+        }
+        
+    }
+
+    .contact-get-in-touch{
+        .right{
+            p{
+                margin-top: 350px !important;
+                margin-left: 250px !important;
+            }
+        }
+        .right-card{
+            textarea{
+                top: 180px !important;
+            }
+            input{
+                width: 90px !important;
+            }
+            .btn{
+                top: 100px !important;
+                height: 40px !important;
+                width: 225px !important;
+            }
+        }
+    }
+    
 
 
 
