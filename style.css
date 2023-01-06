@@ -99,22 +99,12 @@ header .row .right-side-header img {
   margin-left: 450px;
 }
 
-.subheader nav .service:hover .lvl2 {
-  display: none;
-}
-
 .subheader nav a {
   color: #072440;
 }
 
 .subheader nav .active {
   color: #1B44C0;
-}
-
-button:hover {
-  background-color: #1B44C0;
-  color: white;
-  border-color: white;
 }
 
 .bg-header {
@@ -140,12 +130,6 @@ button:hover {
   width: 150px;
   height: 50px;
   border-color: #1B44C0;
-}
-
-.bg-header button:hover {
-  background-color: #1B44C0;
-  color: white;
-  border-color: white;
 }
 
 .bg-header .cards {
@@ -873,12 +857,6 @@ footer .bottom-footer .link-footer {
   color: #072440;
   transition: all .3s;
   padding: 20px;
-}
-
-.cover .cards .card:hover {
-  background-color: white;
-  color: black;
-  border-radius: 10px;
 }
 
 .cover .cards .card h3 {
