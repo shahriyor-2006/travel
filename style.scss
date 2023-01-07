@@ -774,7 +774,7 @@ footer{
 }
 
 .cover{
-    height: 500px;
+    height: 550px;
     background-color: #DAE5FF;
     h1{
         font-size: 2rem;
@@ -829,6 +829,7 @@ footer{
             background-color: white;
             border-radius: 10px;
 
+
             .row-card{
                 width: 300px;
                 margin: auto;
@@ -850,6 +851,8 @@ footer{
                     border-radius: 5px;
                     color: white;
                     margin-top: 10px;
+                    border: none !important;
+
                 }
     }
 
@@ -1183,10 +1186,17 @@ footer{
         background-color: #DAE5FF;
         padding-left: 10px;
         padding-top: 10px;
+        width: 404px;
     }
+    .koma{
+        width: 312px;
+    }
+    
+        
+
     .btn{
         margin-top: 150px !important;
-        width: 98% !important;
+        width: 95% !important;
         margin-left: 17px;
 
     }
@@ -1284,13 +1294,14 @@ footer{
         background-size: 100%;
         .card{
             border: none;
+            height: 270px !important;
         }
         .row-card{
             width: 90% !important;
             margin-top: 20px;
             height: 230px;
             button{
-                margin-top: 15px !important;
+                margin-top: 25px !important;
             }
 
             
@@ -1353,10 +1364,11 @@ footer{
 
 
 @media screen and (max-width:500px){
-    // body{
-    //     overflow-x: hidden !important;
+    body{
+        overflow-x: hidden !important;
 
-    // }
+    }
+    
     .container{
         width: 500px !important;
         .row{
@@ -1905,7 +1917,6 @@ footer{
         
         .card{
             width: 45% !important;
-            border: 1px solid black;
             .row-card{
                 width: 100px;
                 margin: auto;
@@ -1988,6 +1999,7 @@ footer{
             textarea{
                 width: 215px;
             }
+            
             .btn{
                 width: 225px !important;
                 position: absolute;
@@ -2134,7 +2146,6 @@ footer{
         .we-started{
             .card{
                 width: 45% !important;
-                border: 1px solid black;
                 .row-card{
                     width: 100px !important; 
                     margin: auto !important;
@@ -2154,6 +2165,8 @@ footer{
                     button{
                         font-size: 10px !important;
                         height: 30px !important;
+                        width: 180px !important;
+                        margin-left: 15px !important;
                     }
                 }
             }
@@ -2196,11 +2209,12 @@ footer{
                 position: absolute;
                 top: 60px;
                 left: 0px;
-                width: 310px !important;
+                width: 320px !important;
                 height: 30px !important;
                 
             }
         }
+        
         .blue{
             position: absolute;
             top: -10px;
@@ -2233,6 +2247,8 @@ footer{
             width: 300px;
             height: 50px;
         }
+        
+        
         .comment{
             position: absolute !important;
             top: 110px !important;
